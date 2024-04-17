@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  color: rgb(9, 129, 189);
+  transition: all 200ms ease-in-out;
+}
+#navigation-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4em;
+  background-color: rgba(5, 60, 74, 0.315);
+}
+#about {
+  height: 500px;
+  background-color: beige;
+}
+#works {
+  height: 500px;
+  background-color: chocolate;
+}
+#contact {
+  height: 500px;
+  background-color: darksalmon;
+}
