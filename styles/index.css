@@ -10,6 +10,14 @@ body {
   width: 30%;
   text-decoration: none;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+}
 .nav-link-box {
   width: 80px;
   height: 30px;
@@ -41,16 +49,84 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 4em;
-  background-color: rgb(174, 208, 239);
+  background: rgb(36, 55, 72);
+  background: linear-gradient(
+    321deg,
+    rgba(36, 55, 72, 1) 12%,
+    rgba(41, 82, 112, 1) 49%,
+    rgba(75, 116, 159, 1) 92%
+  );
+  box-shadow: 2px 2px 5px 1px rgb(45, 95, 120);
   position: fixed;
   width: 100%;
 }
 #navigation {
   height: 4em;
 }
+
+/* About section */
+
 #about {
   height: 500px;
-  background-color: beige;
+  background: rgb(36, 55, 72);
+  background: linear-gradient(
+    321deg,
+    rgba(36, 55, 72, 1) 12%,
+    rgba(41, 82, 112, 1) 49%,
+    rgba(75, 116, 159, 1) 92%
+  );
+}
+.about-me {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.my-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-image img {
+  opacity: 0.5;
+  width: 300px;
+  object-fit: cover;
+  display: block;
+  transition: opacity 500ms 0ms ease-in-out;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description-title {
+  font-size: 50px;
+}
+.description-text {
+  font-size: x-large;
+}
+.description-title span {
+  background: rgb(131, 153, 162);
+  background: linear-gradient(
+    321deg,
+    rgba(131, 153, 162, 1) 12%,
+    rgba(238, 242, 243, 1) 92%
+  );
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.description-text span {
+  background: rgb(184, 156, 147);
+  background: linear-gradient(
+    82deg,
+    rgba(184, 156, 147, 1) 12%,
+    rgba(145, 146, 100, 0.882) 92%
+  );
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
 }
 #works {
   height: 500px;
