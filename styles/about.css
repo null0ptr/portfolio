@@ -61,6 +61,7 @@
   background-clip: text;
   color: transparent;
   display: inline-block;
+  /* color: #5f9ea0; */
 }
 .description-text span {
   background: rgb(184, 156, 147);
@@ -72,4 +73,36 @@
   background-clip: text;
   color: transparent;
   display: inline-block;
+}
+.cv {
+  /* background-color: red; */
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+}
+#cv-button {
+  padding: 1em 2em;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(20, 111, 88);
+  background: linear-gradient(
+    137deg,
+    rgba(20, 111, 88, 1) 20%,
+    rgba(95, 158, 160, 1) 80%
+  );
+}
+#cv-button:hover {
+  background: rgb(21, 101, 81);
+  background: linear-gradient(
+    137deg,
+    rgba(21, 101, 81, 0.8) 20%,
+    rgba(83, 140, 142, 0.9) 80%
+  );
+
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+#cv-button:active {
+  transform: scale(0.7);
 }
