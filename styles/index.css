@@ -9,6 +9,7 @@ body {
   align-items: center;
   width: 30%;
   text-decoration: none;
+  flex-grow: 0.3;
 }
 .logo {
   display: flex;
@@ -19,7 +20,7 @@ body {
   height: 50px;
 }
 .nav-link-box {
-  width: 80px;
+  width: 100px;
   height: 30px;
   background-color: cadetblue;
   color: black;
@@ -181,7 +182,7 @@ body {
   position: relative;
   top: 0;
   margin-bottom: 20px;
-  animation: slide 6s steps(3) infinite;
+  animation: slide 4.5s steps(3) infinite;
 }
 @keyframes slide {
   100% {
@@ -200,7 +201,7 @@ body {
   width: 100%;
   background: #0a1c34;
   border-left: 3px solid rgb(116, 134, 165);
-  animation: typing 2s steps(10) infinite;
+  animation: typing 1.5s steps(10) infinite;
 }
 @keyframes typing {
   100% {
