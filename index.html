@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <title>About</title>
   </head>
   <body>
     <script src="./scripts/navbar.js"></script>
-    <div id="app">
+    <div class="about-page">
       <section id="about">
         <div class="about-me">
           <div class="my-image">
@@ -17,6 +18,25 @@
           <div class="my-details">
             <div class="description">
               <div>
+                <div class="description-intro">
+                  <span>
+                    <picture>
+                      <source
+                        srcset="
+                          https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fb/512.webp
+                        "
+                        type="image/webp"
+                      />
+                      <img
+                        src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fb/512.gif"
+                        alt="👋"
+                        width="48"
+                        height="48"
+                      />
+                    </picture>
+                  </span>
+                  <span id="iam">I am</span>
+                </div>
                 <div class="description-title">
                   <span>Nazmus</span>
                   <span>Shakib</span>
@@ -29,12 +49,6 @@
                 <div class="description-text">
                   <span>Competitive</span>
                   <span>programmer</span>
-                </div>
-                <div class="description-text">
-                  <span>Currently</span>
-                  <span>persuing</span>
-                  <span>bachelor's</span>
-                  <span>degree</span>
                 </div>
               </div>
             </div>
