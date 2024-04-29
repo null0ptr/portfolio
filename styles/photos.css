@@ -1,0 +1,13 @@
+#photos {
+  height: 100vh;
+  background-color: darkslategrey;
+}
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.photo-container span {
+  font-size: 50px;
+}
