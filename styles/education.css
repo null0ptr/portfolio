@@ -1,0 +1,13 @@
+#education {
+  background-color: darkcyan;
+  height: 100vh;
+}
+.edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.edu span {
+  font-size: 50px;
+}

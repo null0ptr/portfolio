@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <a class="nav-link" href="./works.html">
             <div class="nav-link-box">Works</div>
           </a>
-					<a class="nav-link" href="./works.html">
+					<a class="nav-link" href="./education.html">
             <div class="nav-link-box">Education</div>
           </a>
 					<a class="nav-link" href="./works.html">
