@@ -1,0 +1,155 @@
+#works {
+  height: 100vh;
+}
+.total-problems {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(74, 155, 127);
+  background: linear-gradient(
+    129deg,
+    rgba(52, 66, 91, 0.967) 12%,
+    rgb(10, 28, 52) 50%
+  );
+}
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.static-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dynamic-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .static-text {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: rgb(145, 145, 145);
+}
+.online-judges {
+  font-size: 50px;
+  list-style: none;
+  color: rgb(116, 134, 165);
+  margin-left: 15px;
+  height: 60px;
+  line-height: 50px;
+  overflow: hidden;
+}
+.online-judges li {
+  position: relative;
+  top: 0;
+  margin-bottom: 20px;
+  animation: slide 4.5s steps(3) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -210px;
+  }
+}
+.online-judges li span {
+  position: relative;
+  background: #0a1c34;
+}
+.online-judges li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0a1c34;
+  border-left: 3px solid rgb(116, 134, 165);
+  animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -30px 0 30px;
+  }
+}
+#prob-num {
+  font-size: 60px;
+  color: rgb(134, 154, 184);
+  filter: drop-shadow(0px 1px 10px rgb(116, 165, 130));
+}
+.online-platforms {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.online-platforms-icon {
+  width: 90px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+#projects {
+  height: 100%;
+  background: rgb(74, 155, 127);
+  background: linear-gradient(
+    129deg,
+    rgba(95, 112, 143, 0.967) 12%,
+    rgb(31, 56, 89) 50%
+  );
+}
+.project-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+.project-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-title-text {
+  font-size: 48px;
+  background: rgb(184, 156, 147);
+  background: linear-gradient(
+    99deg,
+    rgb(191, 162, 152) 20%,
+    rgb(139, 102, 99) 80%
+  );
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.project-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: self-start;
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+
+.technology-title {
+  font-size: 32px;
+  color: rgb(134, 154, 184);
+}
+.technology-stack {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 24px;
+}
+.technology-stack span {
+  color: #c6d5d6ec;
+}
+.project-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
